@@ -10,6 +10,6 @@ namespace MovieApi.Application.Features.CQRSDesignPattern.Results.CategoryResult
     {
         public int CategoryId { get; set; }
         
-        public int CategoryName { get; set; }
+        public string CategoryName { get; set; }
     }
 }

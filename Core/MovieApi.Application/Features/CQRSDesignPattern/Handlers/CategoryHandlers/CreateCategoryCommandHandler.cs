@@ -17,7 +17,7 @@ namespace MovieApi.Application.Features.CQRSDesignPattern.Handlers.CategoryHandl
         {
             _context = context;
         }
-        public async  void Handle(CreateCategoryCommands command)
+        public async  Task Handle(CreateCategoryCommands command)
         {
             _context.Categories.Add(new Category
             {

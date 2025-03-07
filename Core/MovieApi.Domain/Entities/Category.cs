@@ -10,6 +10,6 @@ namespace MovieApi.Domain.Entities
     {
         public int CategoryId { get; set; }
 
-        public string CategoryName { get; set; }
+        public  string CategoryName { get; set; }
     }
 }
